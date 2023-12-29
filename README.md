@@ -77,12 +77,20 @@ or using yarn
 
 - **purple** - Purple for any custom message.
 
+## Example
 
+#### Log an error message in red:
+
+```logGlow('An error occurred', { label: 'error', color: 'red' });```
+
+#### Log a success message in green without specifying the color explicitly:
+
+```logGlow('Operation successful', { label: 'success' });```
 
 
 ## 🔗 Links
 
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/riteish-vishwakarma)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/riteish-vishwakarma-3a494313a/)
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/rvritesh07)
 
 
