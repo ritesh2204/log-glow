@@ -6,6 +6,10 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "type": "module",
+  "homepage": "https://github.com/ritesh2204/log-glow/tree/master",
+  "repository": {
+    "url": "https://github.com/ritesh2204/log-glow/tree/master"
+  },
   "scripts": {
     "build": "tsup"
   },
