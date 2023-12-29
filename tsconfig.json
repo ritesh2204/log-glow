@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "noImplicitAny": true,
+        "esModuleInterop": true,
+        "strictNullChecks": true,
+        "target": "ES6",
+        "moduleResolution": "Node10",
+        "module": "CommonJS",
+        "declaration": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "outDir": "dist",
+        "lib": ["es6", "dom"], // include 'dom' if you're also targeting web browsers
+        "types": ["node"], // This line includes Node.js types
+    },
+    "include": ["src"],
+    "exclude": ["node_modules"]
+}

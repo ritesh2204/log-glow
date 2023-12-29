@@ -1,0 +1,25 @@
+{
+  "name": "log-glow",
+  "version": "0.0.1",
+  "description": "log-glow is a versatile, developer-friendly logging tool designed to enhance the logging experience across various JavaScript environments, including Node.js, web browsers, and React Native. It brings a vibrant and organized approach to console logging, making it an ideal choice for developers in diverse development contexts.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "console.log",
+    "colour-ful-logs",
+    "log-glow",
+    "env-logs"
+  ],
+  "author": "Ritesh Vishwakarma",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  }
+}
