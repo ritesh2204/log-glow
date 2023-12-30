@@ -7,7 +7,7 @@ interface ShowLogOptions {
 
 export function cls(message: string, options: ShowLogOptions): void {
 
-    const env = process.env.NODE_ENV || process.env.REACT_APP_NODE_ENV;
+    const env = process.env.NODE_ENV || process.env.REACT_APP_NODE_ENV || "development";
     if (env !== 'development') {
         return;
     }
