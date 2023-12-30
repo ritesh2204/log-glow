@@ -81,11 +81,11 @@ or using yarn
 
 #### Log an error message in red:
 
-```logGlow('An error occurred', { label: 'error', color: 'red' });```
+```cls('An error occurred', { label: 'error', color: 'red' });```
 
 #### Log a success message in green without specifying the color explicitly:
 
-```logGlow('Operation successful', { label: 'success' });```
+```cls('Operation successful', { label: 'success' });```
 
 
 ## 🔗 Links
