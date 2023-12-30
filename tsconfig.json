@@ -1,19 +1,54 @@
 {
-    "compilerOptions": {
-        "strict": true,
-        "noImplicitAny": true,
-        "esModuleInterop": true,
-        "strictNullChecks": true,
-        "target": "ES6",
-        "moduleResolution": "Node10",
-        "module": "CommonJS",
-        "declaration": true,
-        "isolatedModules": true,
-        "noEmit": true,
-        "outDir": "dist",
-        "lib": ["es6", "dom"], // include 'dom' if you're also targeting web browsers
-        "types": ["node"], // This line includes Node.js types
-    },
-    "include": ["src"],
-    "exclude": ["node_modules"]
+	"compilerOptions": {
+		"target": "ES5",
+		"module": "CommonJS",
+		"moduleResolution": "Node",
+		"lib": ["ESNext"],
+		"rootDir": "src",
+		"outDir": "lib",
+		"pretty": true,
+		"incremental": true,
+		"declaration": true,
+		"sourceMap": true,
+		"allowJs": true,
+		"checkJs": true,
+		"strict": true,
+		"noImplicitAny": true,
+		"strictFunctionTypes": true,
+		"strictBindCallApply": true,
+		"strictPropertyInitialization": true,
+		"useUnknownInCatchVariables": true,
+		"alwaysStrict": true,
+		"useDefineForClassFields": true,
+		"allowSyntheticDefaultImports": true,
+		"strictNullChecks": true,
+		"noImplicitThis": true,
+		"noFallthroughCasesInSwitch": true,
+		"isolatedModules": true,
+		"forceConsistentCasingInFileNames": true,
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["./src/*", "./lib/*"]
+		}
+	},
+	"include": ["./src/**/*", "tsconfig-paths-register.d.ts"],
+	"exclude": [
+		"node_modules",
+		"**/*.spec.ts",
+		"**/*.test.ts",
+		"tsconfig.tsbuildinfo",
+		"build",
+		"dist",
+		"lib",
+		"out",
+		"logs",
+		".husky",
+		".vscode",
+		".idea",
+		"public",
+		"uploads"
+	]
 }

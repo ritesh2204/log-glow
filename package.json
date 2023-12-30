@@ -1,17 +1,22 @@
 {
   "name": "log-glow",
-  "version": "0.0.1",
+  "version": "0.0.7",
   "description": "log-glow is a versatile, developer-friendly logging tool designed to enhance the logging experience across various JavaScript environments, including Node.js, web browsers, and React Native. It brings a vibrant and organized approach to console logging, making it an ideal choice for developers in diverse development contexts.",
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
-  "type": "module",
+  "main": "lib/index.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "types": "lib/index.d.ts",
   "homepage": "https://github.com/ritesh2204/log-glow/tree/master",
   "repository": {
     "url": "https://github.com/ritesh2204/log-glow/tree/master"
   },
   "scripts": {
-    "build": "tsup"
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "build": "npm run clean && tsc",
+    "start": "node lib/index.js",
+    "clean": "rm -rf lib tsconfig.tsbuildinfo",
+    "prepare": "npm run build"
   },
   "keywords": [
     "console.log",
@@ -23,7 +28,8 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.10.5",
-    "tsup": "^8.0.1",
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   }
 }

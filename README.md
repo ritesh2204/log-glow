@@ -1,5 +1,5 @@
 
-# colorful-console
+# Log-glow
 
 log-glow is a versatile logging tool designed to enhance the development experience across various JavaScript environments, including Node.js, web browsers, and React Native. It brings clarity and organization to your console logs with color coding and environment-specific functionality.
 
