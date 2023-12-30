@@ -1,6 +1,6 @@
 {
   "name": "log-glow",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "log-glow is a versatile, developer-friendly logging tool designed to enhance the logging experience across various JavaScript environments, including Node.js, web browsers, and React Native. It brings a vibrant and organized approach to console logging, making it an ideal choice for developers in diverse development contexts.",
   "main": "lib/index.js",
   "files": [
